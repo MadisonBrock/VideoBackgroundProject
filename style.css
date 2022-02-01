@@ -56,6 +56,8 @@ video{
     left: 0;
     height: 100%;
     width: 100%;
+    /* "object-fit: cover;" property determines how a video/image is resized to fit inside of its container */
+    object-fit: cover;
 }
 
 #cover{
@@ -93,4 +95,26 @@ video{
 #click:hover{
     /* Changes the size of an element */
     transform: scale(0.95);
+}
+
+#about{
+    padding: 50px;
+    text-align: center;
+}
+
+#about p{
+    font-size: 20px;
+    max-width: 500px;
+    /* Another way to center text */
+    margin: auto;
+}
+
+#about h2{
+    margin: 40px 0 ;
+    color: #504e4e;
+}
+
+i{
+    font-size: 48px;
+    margin: 0 5px;
 }
