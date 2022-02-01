@@ -6,10 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Madison Brock">
     <meta name="description" content="Video Background Project">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Video Background</title>
 </head>
 <body>
-    
+    <section id="main">
+        <div id="video-container">
+            <!-- Video for website, "autoplay" to play automatically, "loop" repeats video, "muted" mutes it. -->
+            <video src="html.mp4" autoplay loop muted></video>
+        </div>
+        
+        <!-- Div to cover/darken the video -->
+        <div id="cover"></div>
+        
+        <div id="content">
+            <h1>Madison Brock</h1>
+            <h2>Web Developer</h2>
+            <!-- Setting the href value to an ID will take the user to the element with that ID when link is clicked -->
+            <a href="#about" id="click">About</a>
+        </div>
+    </section>
 </body>
 </html>
